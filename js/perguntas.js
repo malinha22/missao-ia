@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "A inteligência artificial pode substituir os seres humanos no mercado de trabalho?",
         alternativas: [
