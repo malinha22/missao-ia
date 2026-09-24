@@ -1,6 +1,4 @@
- export unction respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
-historiaFinal += afirmacoes + “ “;
-atual++;
-mostraPergunta();
+ export function aleatorio(lista) {
+const posicao = Math.floor(Math.random()* lista.length);
+return lista[posicao];
 }
